@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "webvillages-backend"
+version = "0.1.0"
+description = "Backend Server for the WebVillages Forum"
+authors = ["fractalbach <fractalbach@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+flask = "^2.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
