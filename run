@@ -1,2 +1,4 @@
 #!/usr/bin/env bash
-poetry run python3 main.py
+source $(poetry env info --path)/bin/activate
+flask --app webvillages init-db
+flask --app webvillages --debug run
